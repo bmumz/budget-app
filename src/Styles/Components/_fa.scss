@@ -1,0 +1,18 @@
+.fa__container {
+  display: flex;
+  padding: $m-size;
+  margin-bottom: $m-size;
+}
+
+.fa__brain {
+  position: absolute;
+  color: lighten($salmon, 5);
+  font-size: $xl-size;
+}
+
+.fa__ff {
+  position: relative;
+  margin-left: 4.5rem;
+  font-size: $l-size;
+  color: lighten($blue, 12);
+}

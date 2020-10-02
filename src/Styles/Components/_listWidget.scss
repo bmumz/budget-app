@@ -1,0 +1,27 @@
+.widget {
+  background-color: darken($blue, 1);
+  margin-bottom: $xl-size;
+}
+.widgetHeader {
+  background-color: darken($blue, 12);
+  color: darken($white, 2);
+  padding: $m-size;
+}
+
+.widgetHeader__title {
+  margin: 0;
+}
+
+.widget__message {
+  text-align: center;
+  color: lighten($off-white, 2);
+  margin: 0;
+  padding: $l-size;
+  border-bottom: 1px solid $dark-blue;
+}
+
+.widget__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

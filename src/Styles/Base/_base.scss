@@ -1,0 +1,16 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-size: $m-size;
+  background-color: lighten($off-white, 7);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
