@@ -3,5 +3,5 @@
 Tired of making small decisions? Add your options to the Indecision App and it will make your decisions for you!
 
 <ul>
-<li>Front End: Javascript, React, Webpack</li>
+<li>Front End: Javascript, React, SCSS, Webpack</li>
 </ul>
