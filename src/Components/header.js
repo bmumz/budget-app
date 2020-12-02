@@ -1,24 +1,19 @@
 import React from "react";
-import Logo from "./logo";
+import { NavLink } from "react-router-dom";
 
-const Header = (props) => {
-  return (
-    <div className="header">
-      <div className="container header__logo">
-        <Logo />
-        <div className="header__titles">
-          <h1 className="header__title">{props.title}</h1>
-          {props.subtitle && (
-            <h2 className="header__subtitle">{props.subtitle}</h2>
-          )}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-Header.defaultProps = {
-  title: "Indecision App",
-};
+const Header = () => (
+  <header>
+    <h1>Budget App</h1>
+    <NavLink to="/" activeClassName="is-active" exact={true}>
+      Home
+    </NavLink>
+    <NavLink to="/create" activeClassName="is-active">
+      Create Expense
+    </NavLink>
+    <NavLink to="/help" activeClassName="is-active">
+      Help
+    </NavLink>{" "}
+  </header>
+);
 
 export default Header;
