@@ -1,6 +1,6 @@
-<h1>Indecision App</h1>
+<h1>Budget App</h1>
 
-Tired of making small decisions? Add your options to the Indecision App and it will make your decisions for you!
+Track your daily expenses.
 
 <ul>
 <li>Front End: Javascript, React, SCSS, Webpack</li>
